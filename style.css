@@ -4,9 +4,13 @@ body {
 
 }
 
-.top-banner {
+section.top-banner {
     background: url("./images/top-banner.png");
     background-repeat: no-repeat;
+}
+
+section {
+
     height: 500px;
     margin-bottom: 150px;
 }
@@ -45,4 +49,10 @@ p {
     border-radius: 5px;
     color: white;
     font-weight: 700;
+}
+
+section.dream-area {
+    background: url("./images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
