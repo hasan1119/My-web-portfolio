@@ -81,3 +81,7 @@ section.experience-area {
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
 }
+footer p{
+    font-size: 12px;
+    text-align: center;
+}
