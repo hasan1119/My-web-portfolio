@@ -7,12 +7,16 @@ body {
 section.top-banner {
     background: url("./images/top-banner.png");
     background-repeat: no-repeat;
+    background-position: top left;
+    margin-top: 0;
 }
 
 section {
 
-    height: 500px;
-    margin-bottom: 150px;
+    min-height: 500px;
+    margin: 30px 0;
+    float: left;
+    clear: both;
 }
 
 .half-width {
@@ -27,11 +31,11 @@ section {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 3.5vw;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 2vw;
 }
 
 p {
@@ -66,7 +70,7 @@ section.experience-area {
 .single-experience {
     background: white;
     border-radius: 5px;
-    height: 80%;
+    min-height: 330px;
     box-shadow: 10px 10px 40px grey;
 }
 
@@ -81,7 +85,25 @@ section.experience-area {
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
 }
-footer p{
+
+footer p {
     font-size: 12px;
     text-align: center;
+}
+
+@media screen and (max-width:768px) {
+
+    .half-width {
+        width: 100%;
+        float: none;
+        margin: 20px 50px;
+        width: 80%;
+        margin-bottom: 20px;
+        min-height: 300px;
+
+    }
+}
+
+.experience-area{
+    overflow: hidden;
 }
